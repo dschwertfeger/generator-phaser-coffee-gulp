@@ -1,0 +1,49 @@
+{
+  "name": "generator-phaser-coffee-gulp",
+  "version": "0.0.1",
+  "description": "Yeoman generator for writing HTML5 games with Phaser in CoffeeScript. Includes a Gulp build system.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "dschwertfeger/generator-phaser-coffee-gulp",
+  "keywords": [
+    "yeoman-generator",
+    "phaser",
+    "HTML5",
+    "game",
+    "coffee-script"
+  ],
+  "homepage": "https://github.com/dschwertfeger/generator-phaser-coffee-gulp",
+  "bugs": "https://github.com/dschwertfeger/generator-phaser-coffee-gulp/issues",
+
+  "author": {
+    "name": "David Schwertfeger",
+    "email": "david.schwertfeger@googlemail.com",
+    "url": "https://github.com/dschwertfeger"
+  },
+
+  "files": [
+    "app"
+  ],
+
+  "scripts": {
+    "test": "mocha"
+  },
+
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+
+  "devDependencies": {
+    "mocha": "*"
+  },
+
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  }
+}
