@@ -20,7 +20,7 @@ Finally, invoke the generator:
 `yo phaser-coffee-gulp`
 
 
-### Run A Local Development SErver
+### Run A Local Development Server
 
 Install Compass if you haven't already.
 
@@ -31,7 +31,7 @@ gem update --system
 gem install compass
 ```
 
-Run the server.
+Run the server:
 
 `gulp`
 
