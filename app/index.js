@@ -28,7 +28,7 @@ var PhaserGenerator = yeoman.generators.Base.extend({
     {
       name: 'phaserVersion',
       message: 'Which Phaser version would you like to use?',
-      default: '2.0.6'
+      default: '2.0.7'
     },
     {
       name: 'gameWidth',
